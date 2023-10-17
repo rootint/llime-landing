@@ -4,6 +4,7 @@
 	--text-color: #ffffff;
 	--background-color: #0c0c0c;
 	--background-blue: #060723;
+	--desktop-width: 1096px;
 }
 
 .app {
@@ -12,13 +13,15 @@
 	min-height: 100vh;
 	margin: 0 auto;
 	padding-top: 0;
-	max-width: 1200px;
+	padding: 16px;
+	max-width: var(--desktop-width);
 	/* background: var(--primary-color); */
 }
 
 * {
 	font-family: 'Inter', sans-serif;
 	color: var(--text-color);
+  box-sizing: border-box;
 }
 
 body {
@@ -37,4 +40,32 @@ html {
 	padding: 0 !important;
 	margin: 0;
 	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 4.25rem;
+	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 3rem;
+		font-weight: 500;
+	}
+}
+
+h2 {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 1.75rem;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@media (max-width: 768px) {
+	h2 {
+		color: rgba(255, 255, 255, 0.85);
+		font-size: 1.25rem;
+		font-style: normal;
+		font-weight: 400;
+	}
 }

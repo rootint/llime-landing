@@ -1,4 +1,5 @@
 <script>
+	import Hero from '../components/Hero.svelte';
 	import { NAME, DESCRIPTION } from '../constants';
 </script>
 
@@ -12,3 +13,5 @@
 		rel="stylesheet"
 	/>
 </svelte:head>
+
+<Hero />

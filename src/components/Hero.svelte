@@ -1,0 +1,95 @@
+<script>
+	import EmailButton from './EmailButton.svelte';
+</script>
+
+<div class="background" />
+<!-- <div class="stars" /> -->
+<section class="hero">
+	<div class="top-padding" />
+	<h1 class="hero">
+		<span class="supercharge">Supercharge</span>
+		your business with LLMs
+	</h1>
+	<div style="height: 2.5rem;" />
+	<h2 class="hero">LLime will build you a custom ChatGPT that is cheaper and better.</h2>
+	<div style="height: 3.5rem;" />
+	<EmailButton />
+	<div class="image-wrapper">
+		<!-- <div class="blur-bg"/> -->
+		<img src="example.png" alt="UI example" />
+		<!-- <div style="width: 100%; height: 200px; background-color: blue; border-radius: 8px;"></div> -->
+	</div>
+</section>
+
+<style>
+	.blur-bg {
+		background-color: red;
+		width: 300px;
+		height: 200px;
+	}
+	.background {
+		background: linear-gradient(
+			180deg,
+			#0c0c0c 3.24%,
+			#060723 48.68%,
+			#0c0c0c 91.36%,
+			#0c0c0c 91.37%
+		);
+		left: 0;
+		top: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -2;
+	}
+	img {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		border-radius: 8px;
+		display: block;
+	}
+	.image-wrapper {
+		padding: 1px;
+		background: linear-gradient(91deg, rgb(69, 74, 222, 1) 13.45%, rgb(84, 173, 228, 1) 68.67%);
+		border-radius: 8px;
+		margin: 0;
+		margin-top: 4rem;
+		box-shadow: 0 0 16px rgba(84, 173, 228, 0.25);
+	}
+
+	.top-padding {
+		height: 10rem;
+	}
+	@media (max-width: 768px) {
+		.top-padding {
+			height: 4rem;
+		}
+	}
+	.supercharge {
+		background: linear-gradient(91deg, var(--primary-color) 13.45%, var(--secondary-color) 68.67%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	section.hero {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		width: 100%;
+		background-image: url('stars.svg');
+		background-repeat: no-repeat;
+	}
+	h1.hero,
+	h2.hero {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		max-width: 45rem;
+	}
+	h2.hero {
+		max-width: 35rem;
+	}
+</style>
