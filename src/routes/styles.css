@@ -1,0 +1,40 @@
+:root {
+	--primary-color: #454ade;
+	--secondary-color: #54ade4;
+	--text-color: #ffffff;
+	--background-color: #0c0c0c;
+	--background-blue: #060723;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding-top: 0;
+	max-width: 1200px;
+	/* background: var(--primary-color); */
+}
+
+* {
+	font-family: 'Inter', sans-serif;
+	color: var(--text-color);
+}
+
+body {
+	background: var(--background-color);
+	margin: 0;
+	padding: 0;
+}
+
+/* don't change! */
+main {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+html {
+	padding: 0 !important;
+	margin: 0;
+	scroll-behavior: smooth;
+}
