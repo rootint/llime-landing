@@ -64,6 +64,7 @@
 		background: linear-gradient(91deg, rgb(69, 74, 222, 0.5) 13.45%, rgb(84, 173, 228, 0.5) 68.67%);
 		border-radius: 8px;
 		margin-right: 1.5rem;
+        box-shadow: 0 0 16px rgba(84, 173, 228, 0.25);
 	}
 	@media (max-width: 768px) {
 		.gradient-wrapper {
@@ -78,6 +79,7 @@
 			margin-right: 0;
             margin-bottom: 24px;
             width: 100%;
+            box-shadow: 0 0 16px rgba(84, 173, 228, 0.25);
 		}
 	}
 	.emailcontainer {

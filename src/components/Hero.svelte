@@ -13,7 +13,7 @@
 		your business with LLMs
 	</h1>
 	<div style="height: 2.5rem;" />
-	<h2 class="hero">LLime will build you a custom ChatGPT that is cheaper and better.</h2>
+	<h2 class="hero">Intuitive and secure custom chatbots for every role in your enterprise.</h2>
 	<div style="height: 3.5rem;" />
 	<EmailButton />
 	<div class="image-wrapper">
@@ -41,9 +41,9 @@
 		);
 		left: 0;
 		top: 0;
-		position: absolute;
+		position: fixed;
 		width: 100%;
-		height: 100%;
+		height: 80%;
 		z-index: -2;
 	}
 	img {
