@@ -1,4 +1,5 @@
 <script>
+	import Cards from '../components/Cards.svelte';
 	import Hero from '../components/Hero.svelte';
 	import { NAME, DESCRIPTION } from '../constants';
 </script>
@@ -15,3 +16,5 @@
 </svelte:head>
 
 <Hero />
+
+<Cards />

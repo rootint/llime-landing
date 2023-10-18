@@ -19,6 +19,7 @@
 	<div class="image-wrapper">
 		<img src={example} alt="UI example" />
 	</div>
+	<div style="height: 4rem;" />
 </section>
 
 <style>
@@ -60,11 +61,11 @@
 		margin: 0;
 		margin-top: 4rem;
 		box-shadow: 0 0 16px rgba(84, 173, 228, 0.25);
-        animation: fadeIn 1s ease-out forwards;
+		animation: fadeIn 1s ease-out forwards;
 	}
 
 	.top-padding {
-		height: 10rem;
+		height: 8rem;
 	}
 	@media (max-width: 768px) {
 		.top-padding {
