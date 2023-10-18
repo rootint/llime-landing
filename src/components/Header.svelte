@@ -39,7 +39,7 @@
 		justify-content: space-between;
 		align-items: center;
 		margin: 0 0;
-		padding-top: 16px;
+		padding-top: 0px;
 	}
 
 	@media (max-width: 768px) {

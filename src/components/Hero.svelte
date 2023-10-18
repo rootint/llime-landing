@@ -1,7 +1,7 @@
 <script>
 	import EmailButton from './EmailButton.svelte';
 	import example from '$lib/assets/example.png';
-    import stars from '$lib/assets/stars.svg';
+	import stars from '$lib/assets/stars.svg';
 </script>
 
 <div class="background" />
@@ -22,6 +22,14 @@
 </section>
 
 <style>
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
 	.background {
 		background: linear-gradient(
 			180deg,
@@ -44,6 +52,7 @@
 		border-radius: 8px;
 		display: block;
 	}
+
 	.image-wrapper {
 		padding: 1px;
 		background: linear-gradient(91deg, rgb(69, 74, 222, 1) 13.45%, rgb(84, 173, 228, 1) 68.67%);
@@ -51,6 +60,7 @@
 		margin: 0;
 		margin-top: 4rem;
 		box-shadow: 0 0 16px rgba(84, 173, 228, 0.25);
+        animation: fadeIn 1s ease-out forwards;
 	}
 
 	.top-padding {
@@ -74,7 +84,6 @@
 		align-items: center;
 		margin: 0;
 		width: 100%;
-		/* background-image: url('stars.png'); */
 		background-repeat: no-repeat;
 	}
 	h1.hero,
