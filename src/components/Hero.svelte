@@ -1,10 +1,12 @@
 <script>
 	import EmailButton from './EmailButton.svelte';
+	import example from '$lib/assets/example.png';
+    import stars from '$lib/assets/stars.svg';
 </script>
 
 <div class="background" />
 <!-- <div class="stars" /> -->
-<section class="hero">
+<section class="hero" style="background-image: url({stars});">
 	<div class="top-padding" />
 	<h1 class="hero">
 		<span class="supercharge">Supercharge</span>
@@ -15,18 +17,11 @@
 	<div style="height: 3.5rem;" />
 	<EmailButton />
 	<div class="image-wrapper">
-		<!-- <div class="blur-bg"/> -->
-		<img src="example.png" alt="UI example" />
-		<!-- <div style="width: 100%; height: 200px; background-color: blue; border-radius: 8px;"></div> -->
+		<img src={example} alt="UI example" />
 	</div>
 </section>
 
 <style>
-	.blur-bg {
-		background-color: red;
-		width: 300px;
-		height: 200px;
-	}
 	.background {
 		background: linear-gradient(
 			180deg,
@@ -79,7 +74,7 @@
 		align-items: center;
 		margin: 0;
 		width: 100%;
-		background-image: url('stars.svg');
+		/* background-image: url('stars.png'); */
 		background-repeat: no-repeat;
 	}
 	h1.hero,
