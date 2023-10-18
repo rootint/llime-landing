@@ -1,6 +1,6 @@
 <script>
 	import EmailButton from './EmailButton.svelte';
-	import example from '$lib/assets/example.png';
+	import example from '$lib/assets/example.webp';
 	import stars from '$lib/assets/stars.svg';
 </script>
 
