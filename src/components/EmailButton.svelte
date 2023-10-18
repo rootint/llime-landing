@@ -76,7 +76,7 @@
 			);
 			border-radius: 8px;
 			margin-right: 0;
-            margin-bottom: 16px;
+            margin-bottom: 24px;
             width: 100%;
 		}
 	}
@@ -96,7 +96,7 @@
 		width: 25rem;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 1.25rem;
+		font-size: 1rem;
 		background-color: var(--background-color);
 		color: #fff;
 		padding: 16px;
@@ -111,7 +111,7 @@
 			width: 100%;
 			font-weight: 400;
 			font-style: normal;
-			font-size: 1.25rem;
+			font-size: 1rem;
 			background-color: var(--background-color);
 			color: #fff;
 			padding: 16px;
@@ -129,10 +129,10 @@
 	}
 
 	.email-button {
-		padding: 0.5rem 2.25rem;
+		padding: 0.25rem 2rem;
 		background: linear-gradient(92deg, #454ade 0.43%, #54ade4 124.53%);
 		font-weight: 500;
-		font-size: 1.25rem;
+		font-size: 1rem;
 		color: #fff;
 		border: none;
 		border-radius: 8px;
@@ -142,10 +142,10 @@
 	@media (max-width: 768px) {
 		.email-button {
 			width: 100%;
-			padding: 1rem 2.25rem;
+			padding: 0.75rem 2rem;
 			background: linear-gradient(92deg, #454ade 0.43%, #54ade4 124.53%);
 			font-weight: 500;
-			font-size: 1.25rem;
+			font-size: 1rem;
 			color: #fff;
 			border: none;
 			border-radius: 8px;
