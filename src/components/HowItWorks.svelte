@@ -1,8 +1,8 @@
 <script>
-	import developer from '$lib/assets/developer.webp';
 	import data from '$lib/assets/data.png';
-	import manager from '$lib/assets/manager.webp';
-	import marketer from '$lib/assets/marketer.webp';
+	import model from '$lib/assets/model.png';
+    import product from '$lib/assets/product.png';
+    import final from '$lib/assets/final.png';
 </script>
 
 <div class="title">
@@ -25,15 +25,15 @@
 		<img src={data} alt="data-arrow" />
 	</div>
 	<div class="section-second">
-		<img src={manager} alt="manager-chat-example" />
+		<img src={model} alt="model-arrow" />
 		<div style="width: 32px" />
 		<div class="text">
 			<p class="monospace">Step 2</p>
 			<h1 class="section-heading">Model Creation</h1>
 			<p class="text">
-				Harness the power of LLMs to streamline decision-making and gain deep insights into
-				financial reports and resource allocation. Optimize team coordination, enhance employee
-				performance, and ensure every decision aligns with the company's objectives.
+				Our team delves into data preprocessing, model creation, and fine-tuning. Once the model is
+				optimized, we deploy it and provide you with a direct URL to your custom dashboard for
+				immediate use.
 			</p>
 		</div>
 	</div>
@@ -42,24 +42,24 @@
 			<p class="monospace">Step 3</p>
 			<h1 class="section-heading">Product Build</h1>
 			<p class="text">
-				LLime empowers marketers with instant access to campaign data, audience insights, and
-				content strategies. Improve campaign efficiency, tailor content to your target audience, and
-				make data-driven decisions effortlessly.
+				We construct a user-friendly UI, an admin dashboard, and an integrated chat interface. With
+				features like login and Single Sign-On (SSO), we ensure you receive a comprehensive,
+				ready-to-use product tailored to your needs.
 			</p>
 		</div>
 		<div style="width: 32px" />
-		<img src={marketer} alt="marketer-chat-example" />
+		<img src={product} alt="product-arrow" />
 	</div>
 	<div class="section-second">
-		<img src={manager} alt="manager-chat-example" />
+		<img src={final} alt="final-arrow" />
 		<div style="width: 32px" />
 		<div class="text">
 			<p class="monospace">Step 4</p>
 			<h1 class="section-heading">Continuous Feedback</h1>
 			<p class="text">
-				Harness the power of LLMs to streamline decision-making and gain deep insights into
-				financial reports and resource allocation. Optimize team coordination, enhance employee
-				performance, and ensure every decision aligns with the company's objectives.
+				We actively monitor model performance and engage with you for feedback. Together, we
+				fine-tune and ensure the model continually aligns with your business goals, delivering
+				optimal results.
 			</p>
 		</div>
 	</div>
@@ -133,7 +133,7 @@
 		.section {
 			display: flex;
 			flex-direction: column;
-			margin-bottom: 24px;
+			margin-bottom: 16px;
 		}
 	}
 	.section-second {
@@ -147,7 +147,7 @@
 			display: flex;
 			margin: 0;
 			flex-direction: column-reverse;
-			margin-bottom: 24px;
+			margin-bottom: 16px;
 		}
 	}
 	h1.heading {

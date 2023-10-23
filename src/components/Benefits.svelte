@@ -1,7 +1,7 @@
 <script>
-	import developer from '$lib/assets/developer.webp';
-	import manager from '$lib/assets/manager.webp';
-	import marketer from '$lib/assets/marketer.webp';
+	import developer from '$lib/assets/developer.png';
+	import manager from '$lib/assets/manager.png';
+	import marketer from '$lib/assets/marketer.png';
 </script>
 
 <div class="title">
