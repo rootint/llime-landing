@@ -1,32 +1,35 @@
 <script>
 	import developer from '$lib/assets/developer.webp';
+	import data from '$lib/assets/data.png';
 	import manager from '$lib/assets/manager.webp';
 	import marketer from '$lib/assets/marketer.webp';
 </script>
 
 <div class="title">
-	<h1 class="heading">Maximize your team's impact</h1>
-	<h2 class="subheading">Shape workflows effortlessly with custom LLM capabilities.</h2>
+	<h1 class="heading">Our process, your solution</h1>
+	<h2 class="subheading">
+		Delve into the steps we undertake to transform your data into actionable insights.
+	</h2>
 	<div style="height: 24px" />
 	<div class="section">
 		<div class="text">
-			<p class="monospace">Developers</p>
-			<h1 class="section-heading">Intuitive Development</h1>
+			<p class="monospace">Step 1</p>
+			<h1 class="section-heading">Data Collection</h1>
 			<p class="text">
-				LLime offers an in-depth exploration of your company's code and tech docs, providing
-				developers with clear insights. This not only elevates coding efficiency but also becomes an
-				invaluable tool for seamless onboarding of new team members.
+				Begin by sharing your data, whether from GitHub, Notion, Google Docs, CRM CSVs, or other
+				sources. Outline your specific needs, such as business counts or departments. We prioritize
+				understanding your business intimately, ensuring our collaboration yields the best results.
 			</p>
 		</div>
 		<div style="width: 32px" />
-		<img src={developer} alt="developer-chat-example" />
+		<img src={data} alt="data-arrow" />
 	</div>
 	<div class="section-second">
 		<img src={manager} alt="manager-chat-example" />
 		<div style="width: 32px" />
 		<div class="text">
-			<p class="monospace">Managers</p>
-			<h1 class="section-heading">Strategic Excellence</h1>
+			<p class="monospace">Step 2</p>
+			<h1 class="section-heading">Model Creation</h1>
 			<p class="text">
 				Harness the power of LLMs to streamline decision-making and gain deep insights into
 				financial reports and resource allocation. Optimize team coordination, enhance employee
@@ -34,10 +37,10 @@
 			</p>
 		</div>
 	</div>
-	<div class="section-last">
+	<div class="section">
 		<div class="text">
-			<p class="monospace">Marketers</p>
-			<h1 class="section-heading">Dynamic Engagement</h1>
+			<p class="monospace">Step 3</p>
+			<h1 class="section-heading">Product Build</h1>
 			<p class="text">
 				LLime empowers marketers with instant access to campaign data, audience insights, and
 				content strategies. Improve campaign efficiency, tailor content to your target audience, and
@@ -46,6 +49,19 @@
 		</div>
 		<div style="width: 32px" />
 		<img src={marketer} alt="marketer-chat-example" />
+	</div>
+	<div class="section-second">
+		<img src={manager} alt="manager-chat-example" />
+		<div style="width: 32px" />
+		<div class="text">
+			<p class="monospace">Step 4</p>
+			<h1 class="section-heading">Continuous Feedback</h1>
+			<p class="text">
+				Harness the power of LLMs to streamline decision-making and gain deep insights into
+				financial reports and resource allocation. Optimize team coordination, enhance employee
+				performance, and ensure every decision aligns with the company's objectives.
+			</p>
+		</div>
 	</div>
 </div>
 
@@ -85,11 +101,11 @@
 		text-align: left;
 	}
 	img {
-        width: 100%;
-        max-width: 50%;
-        height: auto;
-        flex: 1;
-        align-self: start;
+		width: 100%;
+		max-width: 50%;
+		height: auto;
+		flex: 1;
+		align-self: start;
 		/* margin: 0;
 		padding: 0;
 		height: auto;
@@ -111,39 +127,27 @@
 	.section {
 		display: flex;
 		margin: 0;
-		margin-bottom: 240px;
+		margin-bottom: 32px;
 	}
 	@media (max-width: 768px) {
 		.section {
 			display: flex;
 			flex-direction: column;
-			margin-bottom: 48px;
+			margin-bottom: 24px;
 		}
 	}
 	.section-second {
 		display: flex;
 		margin: 0;
-		margin-bottom: 240px;
+		margin-bottom: 32px;
+		text-align: right;
 	}
 	@media (max-width: 768px) {
 		.section-second {
 			display: flex;
 			margin: 0;
 			flex-direction: column-reverse;
-			margin-bottom: 48px;
-		}
-	}
-	.section-last {
-		display: flex;
-		margin: 0;
-		margin-bottom: 64px;
-	}
-	@media (max-width: 768px) {
-		.section-last {
-			display: flex;
-			flex-direction: column;
-			margin: 0;
-			margin-bottom: 64px;
+			margin-bottom: 24px;
 		}
 	}
 	h1.heading {
@@ -169,7 +173,6 @@
 		flex-direction: column;
 		align-content: center;
 		text-align: center;
-        margin-top: 64px;
 	}
 
 	@media (max-width: 768px) {

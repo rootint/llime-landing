@@ -4,6 +4,8 @@
 	import Cards from '../components/Cards.svelte';
 	import Footer from '../components/Footer.svelte';
 	import Hero from '../components/Hero.svelte';
+	import HowItWorks from '../components/HowItWorks.svelte';
+	import Pricing from '../components/Pricing.svelte';
 	import { NAME, DESCRIPTION } from '../constants';
 </script>
 
@@ -22,7 +24,11 @@
 
 <Cards />
 
+<HowItWorks/>
+
 <Benefits />
+
+<Pricing />
 
 <CallToAction />
 

@@ -13,7 +13,7 @@
 			<div class="hide-on-mobile">
 				<p>Home</p>
 				<div style="width: 3rem" />
-				<p>Pricing</p>
+				<a href="#pricing"><p>Pricing</p></a>
 				<div style="width: 3rem" />
 			</div>
 			<div class="gradient-wrapper">
@@ -24,6 +24,9 @@
 </header>
 
 <style>
+    a {
+        text-decoration: none;
+    }
 	.hide-on-mobile {
 		display: flex;
 		align-items: center;

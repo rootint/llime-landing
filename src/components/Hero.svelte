@@ -1,6 +1,6 @@
 <script>
 	import EmailButton from './EmailButton.svelte';
-	import example from '$lib/assets/example.webp';
+	import example from '$lib/assets/example.png';
 	import stars from '$lib/assets/stars.svg';
 </script>
 
@@ -13,7 +13,7 @@
 		your business with LLMs
 	</h1>
 	<div style="height: 2.5rem;" />
-	<h2 class="hero">Intuitive and secure custom chatbots for every role in your enterprise.</h2>
+	<h2 class="hero">Intuitive and secure custom AI assistants for every department in your enterprise.</h2>
 	<div style="height: 3.5rem;" />
 	<EmailButton />
 	<div class="image-wrapper">
