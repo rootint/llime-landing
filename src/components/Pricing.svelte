@@ -27,8 +27,8 @@
 					<li>3 departments</li>
 					<li>15 employees / dept.</li>
 					<li>1 admin</li>
-					<li>LLaMa 7B</li>
-					<li>Slowest servers</li>
+					<li>7 billion parameter model</li>
+					<li>3 instances / dept.</li>
 				</ul>
 			</div>
 		</div>
@@ -55,8 +55,8 @@
 					<li>5 departments</li>
 					<li>25 employees / dept.</li>
 					<li>2 admins</li>
-					<li>LLaMa 13B</li>
-					<li>Fast servers</li>
+					<li>13 billion parameter model</li>
+					<li>5 instances / dept.</li>
 				</ul>
 			</div>
 		</div>
