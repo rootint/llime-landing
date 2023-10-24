@@ -2,13 +2,14 @@
 	import Benefits from '../components/Benefits.svelte';
 	import CallToAction from '../components/CallToAction.svelte';
 	import Cards from '../components/Cards.svelte';
+	import Faq from '../components/FAQ.svelte';
 	import Footer from '../components/Footer.svelte';
 	import Hero from '../components/Hero.svelte';
 	import HowItWorks from '../components/HowItWorks.svelte';
 	import Pricing from '../components/Pricing.svelte';
 	import { NAME, DESCRIPTION } from '../constants';
 
-    import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
 	onMount(async () => {
 		const hasBeenHere = localStorage.getItem('hasBeenHere');
@@ -59,5 +60,7 @@
 <Pricing />
 
 <CallToAction />
+
+<Faq />
 
 <Footer />
