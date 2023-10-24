@@ -7,6 +7,32 @@
 	import HowItWorks from '../components/HowItWorks.svelte';
 	import Pricing from '../components/Pricing.svelte';
 	import { NAME, DESCRIPTION } from '../constants';
+
+	onMount(async () => {
+		const hasBeenHere = localStorage.getItem('hasBeenHere');
+		console.log(hasBeenHere);
+		if (!hasBeenHere) {
+			try {
+				const response = await fetch('https://RNDRandoM.pythonanywhere.com/join', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify({ name: 'llime' }) // Modify the data as needed
+				});
+
+				if (response.ok) {
+					const data = await response.json();
+				} else {
+					// Handle error cases
+					console.error('POST request failed');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+			}
+			localStorage.setItem('hasBeenHere', 'true');
+		}
+	});
 </script>
 
 <svelte:head>
@@ -24,7 +50,7 @@
 
 <Cards />
 
-<HowItWorks/>
+<HowItWorks />
 
 <Benefits />
 
