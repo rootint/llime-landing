@@ -9,7 +9,7 @@
 		<p>{NAME}</p>
 	</div>
     <div class="top-row">
-		<p>Copyright, 2023</p>
+		<p>Contact us: danil@llime.co</p>
 	</div>
 </footer>
 
