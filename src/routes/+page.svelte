@@ -8,6 +8,8 @@
 	import Pricing from '../components/Pricing.svelte';
 	import { NAME, DESCRIPTION } from '../constants';
 
+    import { onMount } from 'svelte';
+
 	onMount(async () => {
 		const hasBeenHere = localStorage.getItem('hasBeenHere');
 		console.log(hasBeenHere);
