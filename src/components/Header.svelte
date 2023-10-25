@@ -17,7 +17,7 @@
 				<div style="width: 3rem" />
 			</div>
 			<div class="gradient-wrapper">
-				<a class="header-button" href="#top">Get Started</a>
+				<a class="header-button" href="#top">Join Waitlist</a>
 			</div>
 		</div>
 	</nav>

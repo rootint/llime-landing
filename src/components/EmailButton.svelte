@@ -1,7 +1,7 @@
 <script>
 	let email = '';
 	let isEmailValid = false;
-	let buttonText = 'Get Started';
+	let buttonText = 'Join Waitlist';
 
 	const handleSubmit = async () => {
 		try {
@@ -19,12 +19,12 @@
 				email = '';
 				// isPopupVisible = true;
 				isEmailValid = false;
-				buttonText = 'Get Started';
+				buttonText = 'Join Waitlist';
 				alert('Your email was sent successfully! We will contact you soon.');
 			} else {
 				// Handle error cases
 				console.error('POST request failed');
-				buttonText = 'Get Started';
+				buttonText = 'Join Waitlist';
 				isEmailValid = false;
 				alert("Can't send the email, please try again later.");
 			}
