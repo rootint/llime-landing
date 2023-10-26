@@ -13,9 +13,23 @@
 		your business with LLMs
 	</h1>
 	<div style="height: 2.5rem;" />
-	<h2 class="hero">Intuitive and secure custom AI assistants for every department in your enterprise.</h2>
+	<h2 class="hero">
+		Intuitive and secure custom AI assistants for every department in your enterprise.
+	</h2>
 	<div style="height: 3.5rem;" />
 	<EmailButton />
+	<div style="height: 4rem;" />
+	<a
+		href="https://www.producthunt.com/products/llime?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-llime"
+		target="_blank"
+		><img
+			src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=557249&theme=dark"
+			alt="LLime - Supercharge&#0032;your&#0032;business&#0032;with&#0032;LLMs | Product Hunt"
+			style="width: 250px; height: 54px;"
+			width="250"
+			height="54"
+		/></a
+	>
 	<div class="image-wrapper">
 		<img src={example} alt="UI example" />
 	</div>
