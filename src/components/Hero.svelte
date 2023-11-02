@@ -2,6 +2,7 @@
 	import EmailButton from './EmailButton.svelte';
 	import example from '$lib/assets/example.png';
 	import stars from '$lib/assets/stars.svg';
+	import google from '$lib/assets/google.jpg';
 </script>
 
 <div class="background" />
@@ -19,17 +20,21 @@
 	<div style="height: 3.5rem;" />
 	<EmailButton />
 	<div style="height: 4rem;" />
-	<a
-		href="https://www.producthunt.com/products/llime?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-llime"
-		target="_blank"
-		><img
-			src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=557249&theme=dark"
-			alt="LLime - Supercharge&#0032;your&#0032;business&#0032;with&#0032;LLMs | Product Hunt"
-			style="width: 250px; height: 54px;"
-			width="250"
-			height="54"
-		/></a
-	>
+	<div class="partners">
+		<a
+			href="https://www.producthunt.com/products/llime?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-llime"
+			target="_blank"
+			><img
+				src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=557249&theme=dark"
+				alt="LLime - Supercharge&#0032;your&#0032;business&#0032;with&#0032;LLMs | Product Hunt"
+				style="width: 250px; height: 54px; margin-right: 32px;"
+				width="250"
+				height="54"
+			/></a
+		>
+		<!-- <div style="width: 64px" /> -->
+		<img src={google} width="54" height="54" alt="Google Startup Program Participant" />
+	</div>
 	<div class="image-wrapper">
 		<img src={example} alt="UI example" />
 	</div>
@@ -37,6 +42,10 @@
 </section>
 
 <style>
+	.partners {
+		display: flex;
+		align-items: center;
+	}
 	@keyframes fadeIn {
 		from {
 			opacity: 0;
