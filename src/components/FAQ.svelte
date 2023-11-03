@@ -4,7 +4,7 @@
 
 <div style="height: 6rem" />
 <h1 class="title">Frequently Asked Questions</h1>
-<h2 class="subheading">If you have other questions, feel free to contact us at danil@llime.co</h2>
+<h2 class="subheading">If you have other questions, feel free to contact us at tioluwani@llime.co</h2>
 
 <Question
 	question="What are the benefits compared to using ChatGPT?"
